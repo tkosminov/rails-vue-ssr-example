@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-* [Install Ruby 2.6.5 and Rails 6.0](https://gorails.com/setup/ubuntu/19.10)
+* [Install Ruby 2.7.0 and Rails 6.0](https://gorails.com/setup/ubuntu/19.10)
 * Install PostgreSQL 11.5
 * Install Node.js 12.16.1 and Yarn
 
@@ -21,8 +21,8 @@ yarn install
 ## Setup database
 
 ```bash
-rake db:migrate:reset
-rake db:seed
+rake db:create
+rake db:migrate
 ```
 
 ## Run (development)
