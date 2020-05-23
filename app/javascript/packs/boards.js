@@ -1,0 +1,1 @@
+import '../frontend/boards/index'
